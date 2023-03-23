@@ -30,10 +30,9 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>
        <span className='myspan'>Kill a code</span> 
-
         </h1>   
         <div className={styles.imageWrap}>
-        <Image className={styles.myImg} src="/coder.jpg " width={237} height={158}/>
+        <Image className={styles.myImg}  alt='coder' src="/coder.jpg " width={237} height={158}/>
         </div>
         <p className={styles.description}>
           A blog for hunting coders by a hunting coder
@@ -44,3 +43,4 @@ export default function Home() {
     </div>
   )
 }
+
