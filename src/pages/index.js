@@ -1,8 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'  
 import styles from '../styles/Home.module.css'
-
-
 export default function Home() {
 
   return (
@@ -32,7 +29,8 @@ export default function Home() {
        <span className='myspan'>Kill a code</span> 
         </h1>   
         <div className={styles.imageWrap}>
-        <Image className={styles.myImg}  alt='coder' src="/coder.jpg " width={237} height={158}/>
+        {/* <Image className={styles.myImg}  alt='coder' src="/coder.jpg " width={237} height={158}/> */}
+        <img src="/coder.jpg " alt="coder" className={styles.myImg} width={237} height={158} />
         </div>
         <p className={styles.description}>
           A blog for hunting coders by a hunting coder
