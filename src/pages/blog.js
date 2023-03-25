@@ -49,13 +49,13 @@ const Blog = (props) => {
 
 
 export async function getStaticProps(context) {
-  let data = await fs.promises.readdir("blogdata");
+  let data = await fs.promises.readdir("Blogdata");
   let allCount = data.length;
   let myfile;
   let allBlogs = [];
   for (let index = 0; index <3; index++) {
     const item = data[index];
-    myfile = await fs.promises.readFile(('blogdata/' + item), 'utf-8')
+    myfile = await fs.promises.readFile(('Blogdata/' + item), 'utf-8')
     allBlogs.push(JSON.parse(myfile))
   }
 
