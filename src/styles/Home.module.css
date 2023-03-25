@@ -1,10 +1,11 @@
 .container {
   padding: 0 2rem;
+  font-family: 'SF Pro Display', sans-serif;
 }
 
 .main {
   min-height: 100vh; 
-  flex: 1;
+  flex: 1;  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +20,7 @@
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
 }
 
 .footer a {
@@ -54,6 +55,7 @@
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+  max-width: 50vw;
 }
 
 .code {
@@ -119,6 +121,8 @@
   display: flex;
   justify-content: center;
     margin-top: 50px;
+    font-family: 'SF Pro Display', sans-serif;
+
 }
 
 .mainnav ul li{
@@ -135,4 +139,22 @@
 .imageWrap{
   margin: 30px 0px;
   padding: 10px;
+}
+
+.readmorebtn {
+  background-color: #000000; /* Blue color */
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.readmorebtn:hover {
+  background-color: #3c482b; /* Darker blue color on hover */
 }

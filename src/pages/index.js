@@ -30,13 +30,33 @@ export default function Home() {
         </h1>   
         <div className={styles.imageWrap}>
         {/* <Image className={styles.myImg}  alt='coder' src="/coder.jpg " width={237} height={158}/> */}
-        <img src="/coder.jpg " alt="coder" className={styles.myImg} width={237} height={158} />
+        <img src="https://thecodest.co/images/uploaded/bad-code-practices.png" alt="coder" className={styles.myImg} width={237} height={158} />
         </div>
         <p className={styles.description}>
           A blog for hunting coders by a hunting coder
         </p>
       </main>
+      <div >
+        <h2 className={styles.h2}>Latest blog</h2>
 
+        <div>
+          <h2 className={styles.h3}>How to learn Javascript in 2023</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste quo obcaecati eum laudantium placeat eligendi repudiandae doloremque dolore architecto ipsum?</p>
+          <button className={styles.readmorebtn}>Read More</button>
+        </div>
+            
+        <div>
+          <h2 className={styles.h3}>How to learn Javascript in 2023</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellendus laborum pariatur ab illo eius magni eligendi, tenetur aspernatur adipisci?</p>
+          <button className={styles.readmorebtn}>Read More</button>
+        </div>
+        <div>
+          <h2 className={styles.h3}>How to learn Javascript in 2023</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam amet officiis saepe. Voluptate aut culpa magni enim unde. At, vero!</p>
+          <button className={styles.readmorebtn}>Read More</button>
+        </div>
+      </div>
+      
       <footer className={styles.footer}> </footer>
     </div>
   )
