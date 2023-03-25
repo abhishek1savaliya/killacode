@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 export default function Home() {
 
   return (
@@ -29,8 +30,8 @@ export default function Home() {
        <span className='myspan'>Kill a code</span> 
         </h1>   
         <div className={styles.imageWrap}>
-        {/* <Image className={styles.myImg}  alt='coder' src="/coder.jpg " width={237} height={158}/> */}
-        <img src="https://thecodest.co/images/uploaded/bad-code-practices.png" alt="coder" className={styles.myImg} width={237} height={158} />
+        <Image className={styles.myImg}  alt='coder' src="https://thecodest.co/images/uploaded/bad-code-practices.png" width={237} height={158}/>
+        {/* <img src="https://thecodest.co/images/uploaded/bad-code-practices.png" alt="coder" className={styles.myImg} width={237} height={158} /> */}
         </div>
         <p className={styles.description}>
           A blog for hunting coders by a hunting coder
