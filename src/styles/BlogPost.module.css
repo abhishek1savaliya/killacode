@@ -10,5 +10,12 @@
   }
   .container {
     padding: 0 2rem;
-    font-family: 'SF Pro Display', sans-serif;
+
+  }
+
+  @media only screen and (max-width:600px) {
+    .container {
+      padding: 0 2.5rem;
+    }
+  
   }

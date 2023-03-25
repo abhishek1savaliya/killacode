@@ -159,5 +159,11 @@
   background-color: #3c482b; /* Darker blue color on hover */
 }
 
-
+@media only screen and (max-width:600px) {
+  .mainnav ul li{
+    margin: 0 6px;
+    list-style: none;
+    font-weight: bold;
+  }
+}
 
