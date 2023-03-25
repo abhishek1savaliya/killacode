@@ -20,7 +20,7 @@ const about = () => {
     <section className={styles.section}>
       <h2 className={styles.h2}>Our Team</h2>
       <ul className={styles.ul}>
-        <li className={styles.li}>John Doe - CEO</li>
+        <li className={styles.liceo}>Abhishek Savaliya - CEO</li>
         <li className={styles.li}>Jane Smith - COO</li>
         <li className={styles.li}>Mark Johnson - CMO</li>
       </ul>
