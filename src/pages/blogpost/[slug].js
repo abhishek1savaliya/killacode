@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import styles from '../../styles/BlogPost.module.css'
+// import styles from '../../styles/BlogPost.module.css' 
 import * as fs from 'fs'; 
 
 const Slug = (props) => { 
@@ -18,7 +18,7 @@ const Slug = (props) => {
 }
 
 export async function getStaticPaths() {
-  let allb = await  fs.promises.readdir(`Blogdata`);
+  let allb = await  fs.promises.readdir('../../../Blogdata');
   allb = allb.map((item)=>{
         return {params:{slug:item.split('.')[0]}}
   })
