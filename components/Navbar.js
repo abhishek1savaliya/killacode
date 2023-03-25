@@ -13,10 +13,6 @@ const Navbar = () => {
   <Link href='/contact'><li>Contact</li></Link>
     </ul>
    </nav>
-
-
-
-   
    </div>
   )
 }

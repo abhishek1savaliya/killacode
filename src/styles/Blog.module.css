@@ -1,19 +1,55 @@
 .main {
-    min-height: 100vh; 
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     justify-content: flex-start;
-      padding-top: 3rem;
+      padding-top: rem;
       font-family: 'SF Pro Display', sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 20px;
+
   }
 
-  .blogItem h3{
+  .blogItemh3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+
+  .readmorebtn {
+    background-color: #000000; /* Blue color */
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
     cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  
+  .readmorebtn:hover {
+    background-color: #3c482b; /* Darker blue color on hover */
+  }
+
+
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   
-  .container {
-    padding: 0 22rem;
+  
+  .blogItemp {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
   }
+  
