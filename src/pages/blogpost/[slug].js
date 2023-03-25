@@ -18,7 +18,7 @@ const Slug = (props) => {
 }
 
 export async function getStaticPaths() {
-  let allb = await  fs.promises.readdir(`blogdata`);
+  let allb = await  fs.promises.readdir(`Blogdata`);
   allb = allb.map((item)=>{
         return {params:{slug:item.split('.')[0]}}
   })
@@ -32,7 +32,7 @@ export async function getStaticPaths() {
   export async function getStaticProps(context) {
 
     const {slug} = context.params;
-    let myBlog = await  fs.promises.readFile(`blogdata/${slug}.json`,'utf-8')
+    let myBlog = await  fs.promises.readFile(`Blogdata/${slug}.json`,'utf-8')
     return {
       props: {myBlog:JSON.parse(myBlog)}, 
     }
