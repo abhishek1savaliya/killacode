@@ -27,7 +27,7 @@ export default function Home() {
     
       <main className={styles.main}>
         <h1 className={styles.title}>
-       <span className='myspan'>Kill a code</span> 
+       <span className='myspan'>Code Abhishek</span> 
         </h1>   
         <div className={styles.imageWrap}>
         <Image className={styles.myImg}  alt='coder' src="/coder.png" width={237} height={158}/>
